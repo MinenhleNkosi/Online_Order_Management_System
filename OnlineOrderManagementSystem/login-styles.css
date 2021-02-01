@@ -153,17 +153,19 @@ div.loginHeader {
 }
 div.loginHeader h1 {
   font-size: 70px;
-  color: black;
+  color: wheat;
   padding: 0px;
-  margin: 0px;
+  margin-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 100%;
 }
 div.loginHeader p {
-  color: black;
+  color: wheat;
   margin: 0px;
   font-size: 35px;
   display: inline-block;
   text-transform: uppercase;
+  line-height: 100%;
 }
 div.loginHeader p::after {
   color: black;
@@ -215,10 +217,95 @@ div.loginButtonContainer button {
 }
 div.header {
   width: 100%;
-  height: 20px;
+  height: 45px;
   background: gray;
+  padding: 10px 10px;
+  text-align: right;
+}
+div.header a {
+  font-size: 20px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 5px 5px;
+  text-decoration: none;
 }
 div.banner {
   background: url(images/banner.jpg) center center no-repeat;
   background-size: cover;
+}
+div.homepageContainer {
+  width: 100%;
+  max-width: 900px;
+  height: 70vh;
+  margin: 0 auto;
+}
+div.bannerHeader h1 {
+  font-size: 100px;
+  text-align: center;
+  color: wheat;
+  line-height: 100%;
+}
+div.bannerHeader h3 {
+  font-size: 30px;
+  text-align: center;
+  color: wheat;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+p.bannerTagLine {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+div.emailForm h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: wheat;
+}
+div.emailForm p {
+  font-size: 20px;
+  color: white;
+}
+div.homepageNotify {
+  text-align: center;
+}
+div.formContainer {
+  /*width: 80%;*/
+}
+div.formContainer input {
+  padding: 5px 5px;
+  text-align: center;
+  position: relative;
+  border: 2px solid gray;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+div.formContainer button {
+  padding: 5px 5px;
+  position: relative;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 8px;
+  color: black;
+}
+div.footer {
+  background: #e3e3e3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+div.homepageFooter {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+div.footer a {
+  color: #848484;
+  margin-left: 30px;
+}
+div.footer a:hover {
+  font-weight: bold;
+  color: black;
+  transition: 0.5s all;
 }
